@@ -17,7 +17,8 @@ const obj1 = {
 const obj2 = {
           key1:"uniquevalues",
           key3:'value4',
-          key4:"value5"
+          key4:"value5",
+          key1:"unique",
 }
 const newObject = {...obj1,...obj2};
 const newObject1 = {...obj2,...obj1,key56:"valuehai"};
