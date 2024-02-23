@@ -22,18 +22,19 @@
 //           console.log(firstname);
 // }
 // console.log(firstname);
-// function myapp(){
-//           if(true){
-//                     var firstname = "tarun";
-//                     console.log(firstname);
-//           }
-//           if(true){
-//                     console.log(firstname);
-//           }
-//           console.log(firstname);
-// }
-// myapp()
-
+function myapp(){
+          if(true){
+                    var firstname = "tarun";
+                    console.log(firstname);
+          }
+          if(true){
+                    console.log(firstname);
+          }
+          console.log(firstname);
+}
+myapp()
+// console.log(firstname);
+// gives error
 function myfunc(){
           console.log(myvar1);
           function myfunc2(){
